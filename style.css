@@ -1,0 +1,6 @@
+.BG{
+    width: 1920px;
+    height: 1513px;
+    flex-shrink: 0;
+    background: url(/img/HG.png) lightgray 50% / cover no-repeat;
+}
