@@ -1,6 +1,55 @@
-.BG{
+#bghero{
+    width: 1920px;
+    height: 1200px;
+    flex-shrink: 0;
+    background-color: red
+}
+#hg{
     width: 1920px;
     height: 1513px;
     flex-shrink: 0;
-    background: url(/img/HG.png) lightgray 50% / cover no-repeat;
+    
+}
+#mg{
+    width: 1920px;
+height: 1422px;
+flex-shrink: 0;
+    position: absolute;
+    top : 800px;
+    width: 1920px;
+    height: 926px;
+    flex-shrink: 0;
+    background-image: url(img/MG.png);
+    background-size: cover;
+}
+#vg{
+    position: absolute;
+    top : 1000px;
+    width: 1920px;
+    height: 926px;
+    flex-shrink: 0;
+    background-image: url(img/VG.png);
+    background-size: cover;
+}
+#navbar{
+    position: absolute;
+    top: 5px;
+    width: 1920px;
+    height: 100px;
+    flex-shrink: 0;
+    text-align: left;
+    padding-left: 50px;
+}
+#logo{
+    
+    top: 50px;
+    right: 1px;
+    color: var(--Wei, #FFF);
+font-family: "Chronicle Display";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.32px;
+text-transform: capitalize;
 }
